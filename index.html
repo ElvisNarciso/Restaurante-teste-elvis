@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criação de site responsivo, restaurante.</title>
+    <!-- touch para mobile -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <!--==============font awesome cdn==============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- CSS customizado arquivo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- header section começa/starts -->
+<header>
+<a href="#" class="logo"><i class="fas fa-utensils"></i>Restaurante</a>
+<nav class="navbar">
+    <a class="active" href="#home">Inicio</a>
+    <a href="#dishes">Pratos</a>
+    <a href="#about">Sobre</a>
+    <a href="#menu">Inicio</a>
+    <a href="#review">Opiniões</a>
+    <a href="#order">Pedidos</a>
+</nav>
+<div class="icons">
+    <i class="fas fa-bars" id="menu-bars"></i>
+    <i class="fas fa-search" id="search-icon"></i>
+    <a href="#" class="fas fa-heart"></a>
+    <a href="#" class="fas fa-shopping-cart"></a>
+</div>
+
+</header>
+<!-- header section termina/ends -->
+<!-- forma de persquisa -->
+<form action="" id="search-form">
+    <input type="search" placeholder="Pesquisar aqui..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+    <!-- Home section starts/inicio -->
+<section class="home" id="home">
+
+        <div class="swiper-container home-slider">
+
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Nossos pratos especiais</span>
+                        <h3>Macarronada picante</h3> 
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem earum expedita quod!</p>
+                        <a href="#" class="btn">peça agora</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/home-img-1.png" alt="">
+                    </div>
+                </div>
+                    <!-- pt2 -->
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Nossos pratos especiais</span>
+                            <h3>Frango assado</h3> 
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem earum expedita quod!</p>
+                            <a href="#" class="btn">peça agora</a>
+                        </div>
+                        <div class="image">
+                            <img src="images/home-img-2.png" alt="">
+                        </div>
+                    </div>
+
+                <!-- pt3 -->
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Nossos pratos especiais</span>
+                            <h3>Pizza</h3> 
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem earum expedita quod!</p>
+                            <a href="#" class="btn">peça agora</a>
+                        </div>
+                            <div class="image">
+                                <img src="images/home-img-3.png" alt="">
+                            </div>
+                    </div>
+                    <!-- final -->
+
+                </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>    
+            
+
+
+    </section>
+
+    <!-- Home section ends/termina -->
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Arquivo javascript personalizado -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>
